@@ -3319,10 +3319,16 @@ progress {
     font-size: 11px;
     }
         .course_sort {
-        font: 13px;
+         
         gap: 5px;
         font-size: 10px;
     }
+    .course_sort_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
 }
 @media screen and (max-width: 320px) {
     .dotted:nth-child(3) {
