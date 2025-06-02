@@ -3312,6 +3312,17 @@ progress {
         line-height: 1.8;
         font-size: 13px;
     }
+    .course_sort_left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    }
+        .course_sort {
+        font: 13px;
+        gap: 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 320px) {
     .dotted:nth-child(3) {
