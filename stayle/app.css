@@ -98,16 +98,23 @@ img{
     position: relative;
     top: 3px;
 }
-.moon_sun {
+/* .moon_sun {
     position: relative;
-    top: 0px;
-}
+    top: 2px;
+} */
 .search {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.bars_line{
+   width: 24px;
+    display: block;
+    height: 24px;
+    position: relative;
+    right: 3px;
+}
 .search > label{
     opacity: 0;
     visibility: hidden;
@@ -461,6 +468,7 @@ img{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 42px;
+    line-height: 1.8;
 }
 .hero_form{
     margin: 28px 24px;
@@ -658,7 +666,7 @@ ul.sub_menu > li a:hover i {
     top: 15px;
     width: 17px;
     display: block;
-    border-bottom: 2px solid #fff;
+    /* border-bottom: 2px solid #fff; */
     margin-bottom: 3px;
    
 }
@@ -2116,7 +2124,7 @@ progress {
     color: #111827;
 }
 .first_direction p{
-    padding-top: 20px;
+    padding: 20px 0;
     color:#374151;
     font-size: 14px;
     line-height: 1.4;
@@ -3138,7 +3146,7 @@ progress {
         top: 0;
         width: 17px;
         display: block;
-        border-bottom: 2px solid #000000;
+        border-bottom: 2px solid rgb(156, 163, 175);
         margin-bottom: 3px;
         
     }
@@ -3179,7 +3187,7 @@ progress {
     top: 3px;
     }
     .moon_sun {
-    top: 3px;
+    top: 0px;
     position: relative;
     }
     .search {
@@ -3193,6 +3201,11 @@ progress {
     .course_box a {
     color: rgb(17 24 39);
     font-size: 12px;
+    }
+    .bars_mobil{
+    background: #f3f4f6;
+    padding: 14px 8px 0;
+    border-radius: 100%;
     }
 }
 @media screen and (max-width:576px){
