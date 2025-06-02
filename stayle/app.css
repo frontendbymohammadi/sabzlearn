@@ -3229,6 +3229,23 @@ progress {
     text-align: center;
     font-size:13px;
     }
+      .course_sort_left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    }
+        .course_sort {
+         
+        gap: 5px;
+        font-size: 10px;
+    }
+    .course_sort_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
 }
 @media screen and (max-width:576px){
     .left_nav{
@@ -3312,7 +3329,7 @@ progress {
         line-height: 1.8;
         font-size: 13px;
     }
-    .course_sort_left {
+    /* .course_sort_left {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -3328,7 +3345,7 @@ progress {
     align-items: center;
     justify-content: center;
     gap: 3px;
-}
+} */
 }
 @media screen and (max-width: 320px) {
     .dotted:nth-child(3) {
