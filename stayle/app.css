@@ -94,10 +94,20 @@ img{
     align-items: center;
     gap: 20px;
 }
-.search{
+.bg-icon{
+    position: relative;
+    top: 3px;
+}
+.moon_sun {
+    position: relative;
+    top: 0px;
+}
+.search {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
 .search > label{
     opacity: 0;
     visibility: hidden;
@@ -842,11 +852,13 @@ ul.sub_menu > li a:hover i {
     border-right: 6px solid #f3f4f6;
     width: 40px;
     height: 40px;
-    display: block;
+    display: flex;
     position: absolute;
     left: -30px;
     bottom: -5px;
     transform: rotate(134deg);
+    align-items: center;
+    justify-content: center;
 }
 .flash_2::before {
     content: " ";
@@ -854,11 +866,13 @@ ul.sub_menu > li a:hover i {
     border-right: 6px solid #f3f4f6;
     width: 40px;
     height: 40px;
-    display: block;
+    display: flex;
     position: absolute;
     left: -30px;
     top: -10px;
     transform: rotate(134deg);
+    align-items: center;
+    justify-content: center;
 }
 .flash_3::before {
     content: " ";
@@ -3089,9 +3103,6 @@ progress {
     .list_main{
         display: none;
     }
-    .moon_sun{
-        display: none;
-    }
     .btn_nav_none{
         display: none;
     }
@@ -3127,7 +3138,7 @@ progress {
         top: 0;
         width: 17px;
         display: block;
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #000000;
         margin-bottom: 3px;
         
     }
@@ -3163,7 +3174,26 @@ progress {
     .box_summary {
         flex-direction: column;
     }
-    
+    .shope{
+    position: relative;
+    top: 3px;
+    }
+    .moon_sun {
+    top: 3px;
+    position: relative;
+    }
+    .search {
+    position: relative;
+    top: 1px;
+    }
+    .course_box {
+    position: relative;
+    font-size: 12px;
+    }
+    .course_box a {
+    color: rgb(17 24 39);
+    font-size: 12px;
+    }
 }
 @media screen and (max-width:576px){
     .left_nav{
@@ -3229,6 +3259,10 @@ progress {
     }
     .course_box a {
         font-size: 14px;
+    }
+    .box_showing  {
+    font-size: 10px;
+    width: auto;
     }
 }
 @media screen and (max-width: 320px) {
