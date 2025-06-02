@@ -836,15 +836,15 @@ ul.sub_menu > li a:hover i {
 /* ========== start map_course========== */
 .map_course{
 }
-.course{
+.course {
     background: #fff;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 45px;
-    height: 50px;
     padding: 0 10px;
+    min-height: 51px;
 }
 .flash_1::before {
     content: " ";
@@ -869,7 +869,7 @@ ul.sub_menu > li a:hover i {
     display: flex;
     position: absolute;
     left: -30px;
-    top: -10px;
+    top: -13px;
     transform: rotate(134deg);
     align-items: center;
     justify-content: center;
