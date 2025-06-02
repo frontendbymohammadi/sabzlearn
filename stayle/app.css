@@ -863,7 +863,7 @@ ul.sub_menu > li a:hover i {
     display: flex;
     position: absolute;
     left: -30px;
-    bottom: -5px;
+    bottom: -2px;
     transform: rotate(134deg);
     align-items: center;
     justify-content: center;
@@ -877,7 +877,7 @@ ul.sub_menu > li a:hover i {
     display: flex;
     position: absolute;
     left: -30px;
-    top: -13px;
+    top: -8px;
     transform: rotate(134deg);
     align-items: center;
     justify-content: center;
@@ -2667,7 +2667,6 @@ progress {
 
 
 
-
 .box_code{
     text-align: left;
     direction: ltr;
@@ -3205,6 +3204,29 @@ progress {
     background: #f3f4f6;
     padding: 14px 8px 0;
     border-radius: 100%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    }
+    .bars_line{
+    position: relative;
+    right: 3px;
+    }
+    .course_sort {
+    font: 13px;
+    gap: 25px;
+    }
+    .search_bold {
+    left: 0;
+    }
+    .Text_wrraper table th, td {
+    min-width: 70px;
+    text-wrap: wrap;
+    line-height: 1.8;
+    }
+    .Text_wrraper table {
+    text-align: center;
+    font-size:13px;
     }
 }
 @media screen and (max-width:576px){
@@ -3269,11 +3291,13 @@ progress {
         flex-direction: column;
         gap: 20px;
     }
-    .course_box a {
-        font-size: 14px;
+       .course_box a {
+        font-size: 13px;
+        line-height: 1.8;
+        text-wrap: wrap;
     }
     .box_showing  {
-    font-size: 18px;
+    font-size: 20px;
     width: auto;
     }
 }
